@@ -68,8 +68,7 @@ class gamesDAO extends abstractDAO {
     public function addGame($game){
         
         if(!$this->mysqli->connect_errno){
-            /**
-            The query uses the question mark (?) as a
+            /**The query uses the question mark (?) as a
             placeholder for the parameters to be used in the query.
             The prepare method of the mysqli object returns
             a mysqli_stmt object. It takes a parameterized
@@ -111,8 +110,7 @@ class gamesDAO extends abstractDAO {
     public function updateGame($game){
         
         if(!$this->mysqli->connect_errno){
-            /**
-            The query uses the question mark (?) as a
+            /**The query uses the question mark (?) as a
             placeholder for the parameters to be used
             in the query.
             The prepare method of the mysqli object returns

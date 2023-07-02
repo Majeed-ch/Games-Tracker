@@ -37,7 +37,7 @@
             <div class="game">
                 <div class="col-md-12">
                     <div class="mt-5 mb-3 clearfix">
-                        <h2 class="pull-left">Games of 2022</h2>
+                        <h2 class="pull-left">My Games List</h2>
                         <a href="create.php" class="btn btn-success pull-right"><i class="fa fa-plus"></i> Add New Game</a>
                     </div>
                     <?php
